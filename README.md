@@ -44,7 +44,7 @@ A `container` e os botões têm uma estilização específica para garantir uma 
 ```
 
 ## 🧙‍♂️ Contribuições
-Fique à vontade para abrir issues e pull requests. Vamos juntos tornar "O Eco da Terra Média" ainda mais incrível!
+Fique à vontade para abrir issues e pull requests. Vamos juntos contar os babados no "TV Fama da Terra Média"!
 
 ## 🌐 Contato
 - LinkedIn: [Michele Moreira](https://www.linkedin.com/in/michelemoreira-s/)
