@@ -37,11 +37,11 @@ A `container` e os botões têm uma estilização específica para garantir uma 
 
 ## 📂 Estrutura do Projeto
 
-```plaintext
-.
+```
 ├── index.html
 ├── jornal.css
 └── jornal.js
+```
 
 ## 🧙‍♂️ Contribuições
 Fique à vontade para abrir issues e pull requests. Vamos juntos tornar "O Eco da Terra Média" ainda mais incrível!
