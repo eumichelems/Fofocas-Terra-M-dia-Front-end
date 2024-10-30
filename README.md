@@ -2,7 +2,7 @@
 
 Bem-vindo ao projeto "O Eco da Terra Média" - uma página de jornal fictícia ambientada no universo de Tolkien, criada durante o curso de Front-end do Serratec.
 
-![O Eco da Terra Média](https://acdn.mitiendanube.com/stores/004/823/295/products/vintage-canvas-sn-941153bc206bebfedb17187527992339-1024-1024.webp)
+![TV Fama da Terra Média]
 
 ## 🖋️ Tecnologias Utilizadas
 - **HTML5**: Estrutura semântica do conteúdo.
