@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Eco da Terra Média</title>
+    <link rel="stylesheet" href="jornal.css" />
+<!-- Utilizando google fonts conforme aula 3 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Modern+Antiqua&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+<!-- título do jornal -->
+    <header>
+        <h1>TV Fama da Terra Média</h1> 
+    </header>
+<!-- artigos das matérias -->
+    <main>
+        <article>
+            <h2>Sam e Frodo: Romance à Escondidas!</h2>
+            <p>Fontes revelam que Sam e Frodo estão vivendo um intenso romance secreto no Condado, longe dos olhares curiosos...</p>
+            <!-- <button class="leia-mais" onclick="toggleContent(this)">Leia mais</button> -->
+            <div class="container">
+                <div class="center">
+                  <button class="btn" onclick="toggleContent(this)">
+                    <svg width="96px" height="36px" class="border">
+                      <polyline points="95,1 95,36 1,36 1,1 95,1" class="bg-line" />
+                      <polyline points="95,1 95,36 1,36 1,1 95,1" class="hl-line" />
+                    </svg>
+                    <span>Leia mais</span>
+                  </button>
+                </div>
+            </div>
+            <div class="extra-content" style="display: none;">
+                <p>"Você não tinha partido para as Terras Imortais, fura olho?" - disse Rosinha ao flagrar os dois durante um encontro romântico à luz da lua. 
+                    Que situação hein! Sobrará cadeiras no Condado? Veremos.</p>
+            </div>
+        </article>
+
+        <article>
+            <h2>Sauron Anuncia Nova Parceria Vilanesca!</h2>
+            <p>Em um movimento inesperado, Sauron está se unindo a um novo aliado misterioso para dominar a Terra-média...</p>
+            <div class="container">
+                <div class="center">
+                  <button class="btn" onclick="toggleContent(this)">
+                    <svg width="96px" height="36px" class="border">
+                      <polyline points="95,1 95,36 1,36 1,1 95,1" class="bg-line" />
+                      <polyline points="95,1 95,36 1,36 1,1 95,1" class="hl-line" />
+                    </svg>
+                    <span>Leia mais</span>
+                  </button>
+                </div>
+            </div>
+            <div class="extra-content" style="display: none;">
+                <p>Após a perda do seu precioso Anel e a destruição de seu olho, Sauron se encontra mais possesso do que nunca.Em um movimento inesperado, ele está se unindo a um novo aliado
+                    do balacobaco. Será que conhecemos essa nova aliança misteriosa de Sauron? Façam suas apostas.</p>
+            </div>
+        </article>
+
+        <article>
+            <h2>Legolas Surpreende com Novo Corte de Cabelo!</h2>
+            <p>Legolas decidiu dar uma nova tapa no seu visual e surpreendeu a todos com um corte de cabelo ousado!</p>
+            <div class="container">
+                <div class="center">
+                  <button class="btn" onclick="toggleContent(this)">
+                    <svg width="96px" height="36px" class="border">
+                      <polyline points="95,1 95,36 1,36 1,1 95,1" class="bg-line" />
+                      <polyline points="95,1 95,36 1,36 1,1 95,1" class="hl-line" />
+                    </svg>
+                    <span>Leia mais</span>
+                  </button>
+                </div>
+            </div>
+            <div class="extra-content" style="display: none;">
+                <p>Os fãs estão divididos: alguns amam o novo look, enquanto outros preferem o clássico estilo elfo. O que você acha?</p>
+            </div>
+        </article>
+
+        <article>
+            <h2>Gandalf Revela Segredo sobre o Senhor dos Anéis!</h2>
+            <p>O Mago Branco fez uma revelação bombástica durante uma reunião no conselho...</p>
+            <div class="container">
+                <div class="center">
+                  <button class="btn" onclick="toggleContent(this)">
+                    <svg width="96px" height="36px" class="border">
+                      <polyline points="95,1 95,36 1,36 1,1 95,1" class="bg-line" />
+                      <polyline points="95,1 95,36 1,36 1,1 95,1" class="hl-line" />
+                    </svg>
+                    <span>Leia mais</span>
+                  </button>
+                </div>
+            </div>
+            <div class="extra-content" style="display: none;">
+                <p>Gandalf revelou que o verdadeiro poder do Anel está em sua capacidade de unir ou separar amigos. O que isso significa para nossos heróis?</p>
+            </div>
+        </article>
+        
+        <article>
+            <h2>Gimli Entra para o Hall da Fama dos Anões!</h2>
+            <p>Gimli foi homenageado em uma cerimônia no reino de Erebor após suas impressionantes façanhas na batalha...</p>
+            <div class="container">
+                <div class="center">
+                  <button class="btn" onclick="toggleContent(this)">
+                    <svg width="96px" height="36px" class="border">
+                      <polyline points="95,1 95,36 1,36 1,1 95,1" class="bg-line" />
+                      <polyline points="95,1 95,36 1,36 1,1 95,1" class="hl-line" />
+                    </svg>
+                    <span>Leia mais</span>
+                  </button>
+                </div>
+            </div>
+            <div class="extra-content" style="display: none;">
+                <p>Mas, segundo rumores, o anão tem um segredo que pode mudar tudo! O que ele está escondendo de seus amigos?</p>
+            </div>
+        </article>
+         
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 O Eco da Terra-média. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="jornal.js"></script>
+</body>
+</html>
